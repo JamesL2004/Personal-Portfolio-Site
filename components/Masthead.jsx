@@ -12,7 +12,7 @@ const robotoBoldFont = Roboto_Condensed({
 
 export default function Masthead() {
     return (
-        <div className={`border flex flex-col md:flex-row items-center justify-center mx-auto rounded-xl p-4 space-y-4 md:space-y-0 md:space-x-4`}>
+        <div className={`border flex flex-col md:flex-row items-center justify-center mx-auto rounded-xl p-4  md:space-y-0 md:space-x-4`}>
             <div className={`max-w-md text-center md:text-left`}>
                 <h2 className={`text-2xl font-bold font-mb-2 text-blue-400 ${robotoBoldFont.className}`}>Hi, I'm James</h2>
                 <p className={`text-md ${robotoFont.className}`}>
