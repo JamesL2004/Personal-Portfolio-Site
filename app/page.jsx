@@ -8,7 +8,7 @@ export default function Home(){
     <>
         <div className={`space-y-8`}>
           <Masthead/>
-          <div className={`bg-blue-500`}>
+          <div className={`bg-blue-500 space-y-20`}>
             <AboutMe/>
             <JobExperience/>
             <EducationHistory/>
