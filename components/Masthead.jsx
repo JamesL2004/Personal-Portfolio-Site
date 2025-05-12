@@ -20,7 +20,6 @@ export default function Masthead() {
                     and see a bit of my life story.
                 </p>
             </div>
-            <img src="/images/Masthead_image.jpg" className={`w-full md:w-1/3`} />
         </div>
     );
 }
