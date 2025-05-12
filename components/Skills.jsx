@@ -4,7 +4,7 @@ export default function Skills(){
             <section id="skills" className={`pb-10`}>
                 <h2 className={`text-center font-bold text-4xl pb-5`}>Skills</h2>
                 <div className={`flex items-center justify-center bg-blue-400 max-w-7xl mx-auto rounded-lg space-x-20 p-10 transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg`}>
-                    <div className={`bg-blue-500 p-10 rounded-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg`}>
+                    <div className={`bg-blue-300 p-10 rounded-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg`}>
                         <h3 className={`font-bold text-lg`}>Languages</h3>
                         <ul className={`list-disc pl-5 pt-10`}>
                             <li>Javascript</li>
@@ -14,7 +14,7 @@ export default function Skills(){
                             <li>HTML/CSS</li>
                         </ul>
                     </div>
-                    <div className={`bg-blue-500 p-10 rounded-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg`}>
+                    <div className={`bg-blue-300 p-10 outline-blue-500 rounded-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg`}>
                         <h3 className={`font-bold text-lg`}>Frameworks</h3>
                         <ul className={`list-disc pl-5 pt-5`}>
                             <li>NextJS</li>
@@ -24,7 +24,7 @@ export default function Skills(){
                             <li>.NET</li>
                         </ul>
                     </div>
-                    <div className={`bg-blue-500 p-10 rounded-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg`}>
+                    <div className={`bg-blue-300 p-10 rounded-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg`}>
                         <h3 className={`font-bold text-lg`}>Other Technologies</h3>
                         <ul className={`list-disc pl-5 pt-5`}>
                             <li>Github</li>

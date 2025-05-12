@@ -15,7 +15,7 @@ export default function AboutMe(){
         <>
             <section id="about-me" className={`py-10`}>
             <div className="bg-blue-400 max-w-2xl mx-auto flex flex-col md:flex-row md:max-w-7xl p-10 rounded-xl transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
-                <img src="/images/Masthead_image.jpg" className="w-full rounded-full border md:w-1/3" /> 
+                <img src="/images/Masthead_image.png" className="w-full rounded-full border md:w-1/3" /> 
                 <div className="w-full space-y-2 p-4 flex flex-col items-center justify-center">
                     <h2 className={`pt-2 text-2xl ${robotoBoldFont.className}`}>About Me</h2>
                     <p className={`text-center max-w-7xl ${robotoFont.className}`}>
