@@ -1,9 +1,9 @@
 export default function JobExperience(){
     return (
         <>
-            <section id="job-exp" className="space-y-7">
+            <section id="job-exp" className="space-y-7 pb-10">
                 <h2 className="text-center font-bold text-4xl">Job Experience</h2>
-                <div className="flex flex-col items-center justify-center bg-blue-400 max-w-7xl mx-auto rounded-lg p-20 space-y-5 md:flex-row md:space-x-10 md:space-y-0">
+                <div className="flex flex-col items-center justify-center bg-blue-400 max-w-7xl mx-auto rounded-lg p-20 space-y-5 md:flex-row md:space-x-10 md:space-y-0 transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
                     <img src="/images/toromont-logo.png" className={`max-w-md h-auto`}/>
                     <div className="px-5">
                         <h2 className="font-bold text-2xl">Summer Warehouse Student</h2>

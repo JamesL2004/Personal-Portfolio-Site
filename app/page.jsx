@@ -2,6 +2,7 @@ import AboutMe from "@/components/AboutMe";
 import EducationHistory from "@/components/EducationHistory";
 import JobExperience from "@/components/JobExperience";
 import Masthead from "@/components/Masthead";
+import Skills from "@/components/Skills";
 
 export default function Home(){
   return (
@@ -10,8 +11,9 @@ export default function Home(){
           <Masthead/>
           <div className={`bg-blue-500 space-y-12`}>
             <AboutMe/>
-            <JobExperience/>
             <EducationHistory/>
+            <Skills/>
+            <JobExperience/>
           </div>
         </div>
     </>
