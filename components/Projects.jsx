@@ -7,7 +7,7 @@ export default function Projects(){
                     <div className={`bg-blue-300 p-10 rounded-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg`}>
                         <img src="/images/Gobble_Gauntlet_Logo.png" className={`max-w-sm h-auto`}/>
                         <div className={`flex flex-col items-center justify-center`}>
-                            <a href="/" className={`font-bold text-lg text-center pt-5 hover:underline hover:cursor-pointer`}>Gobble Gauntlet</a>
+                            <a href="/gobbleGauntletInfo" className={`font-bold text-lg text-center pt-5 hover:underline hover:cursor-pointer`}>Gobble Gauntlet</a>
                             <a href="https://github.com/JamesL2004/Gobble-Gauntlet-main" className={`text-center pb-2 hover:underline hover:cursor-pointer hover:text-blue-600`}>Github Repo</a>
                         </div>
                         <p className={`text-center max-w-sm`}>Gobble Gauntlet is a top-down dungeon crawler built using the Unity Game Engine.</p>
