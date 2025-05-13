@@ -16,11 +16,11 @@ export default function NavBar()
                     James Lynch
                     </Link>
                     <ul className="flex space-x-4 ml-6">
-                    <Link href="#about-me">About Me</Link>
-                    <Link href="#job-exp">Job Experience</Link>
-                    <Link href="#educ">Education</Link>
-                    <Link href="#projects">Projects</Link>
-                    <Link href="#skills">Skills</Link>
+                    <Link href="#about-me" className={`hover:underline hover:text-blue-500`}>About Me</Link>
+                    <Link href="#job-exp" className={`hover:underline hover:text-blue-500`}>Job Experience</Link>
+                    <Link href="#educ" className={`hover:underline hover:text-blue-500`}>Education</Link>
+                    <Link href="#projects" className={`hover:underline hover:text-blue-500`}>Projects</Link>
+                    <Link href="#skills" className={`hover:underline hover:text-blue-500`}>Skills</Link>
                     </ul>
                 </nav>
             </section>

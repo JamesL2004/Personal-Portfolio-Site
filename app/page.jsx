@@ -2,6 +2,7 @@ import AboutMe from "@/components/AboutMe";
 import EducationHistory from "@/components/EducationHistory";
 import JobExperience from "@/components/JobExperience";
 import Masthead from "@/components/Masthead";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 
 export default function Home(){
@@ -14,6 +15,7 @@ export default function Home(){
             <EducationHistory/>
             <Skills/>
             <JobExperience/>
+            <Projects/>
           </div>
         </div>
     </>
