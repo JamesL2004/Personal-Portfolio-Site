@@ -8,7 +8,7 @@ export default function Projects(){
                         <img src="/images/Gobble_Gauntlet_Logo.png" className={`max-w-sm h-auto`}/>
                         <div className={`flex flex-col items-center justify-center`}>
                             <h3 className={`font-bold text-lg text-center pt-5 hover:cursor-pointer`}>Gobble Gauntlet</h3>
-                            <a href="https://github.com/JamesL2004/Gobble-Gauntlet-main" className={`text-center pb-2 hover:underline hover:cursor-pointer hover:text-blue-600`}>Github Repo</a>
+                            <a href="https://github.com/JamesL2004/Gobble-Gauntlet-main" className={`text-center pb-2 hover:underline hover:cursor-pointer hover:text-blue-600 transition-colors`}>Github Repo</a>
                         </div>
                         <p className={`text-center max-w-sm`}>Gobble Gauntlet is a top-down dungeon crawler built using the Unity Game Engine.</p>
                     </div>
@@ -16,7 +16,7 @@ export default function Projects(){
                         <img src="/images/Wumpus-World.png" className={"max-w-sm h-auto"}/>
                         <div className={`flex flex-col items-center justify-center`}>
                             <h3 className={`font-bold text-lg text-center pt-5 hover:cursor-pointer`}>LLM Agent Wumpus World</h3>
-                            <a href="https://github.com/JamesL2004/Wumpus-World-phi4-Simulation" className={`text-center pb-2 hover:underline hover:cursor-pointer hover:text-blue-600`}>Github Repo</a>
+                            <a href="https://github.com/JamesL2004/Wumpus-World-phi4-Simulation" className={`text-center pb-2 hover:underline hover:cursor-pointer hover:text-blue-600 transition-colors`}>Github Repo</a>
                         </div>
                         <p className={`max-w-sm text-center`}>A Mesa SLM Agent Wumpus sinulation powered by Microsofts Phi-4-mini-instruct model</p>
                     </div>
