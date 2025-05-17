@@ -1,10 +1,10 @@
-import GauntletMasthead from "@/components/gobbleGauntlet/GauntletMasthead";
+import GauntletInfo from "@/components/gobbleGauntlet/GaunletInfo";
 
 export default function GobbleGauntletInfo(){
     return(
         <>
             <section id="gobbleGauntletInfo">
-                <GauntletMasthead/>
+                <GauntletInfo/>
             </section>
         </>
     );
