@@ -29,7 +29,7 @@ export default function GauntletCarousel({slides}){
                     ))}
                 </div>
 
-                <div className="absolute top-0 h-full w-full justify-between item-center flex text-white px-10 text-3xl">
+                <div className="absolute top-0 h-full w-full justify-between item-center flex text-white px-3 text-3xl">
                     <button onClick={previousSlide}>
                         <BsFillArrowLeftCircleFill/>
                     </button>
