@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md';
 export default function Footer(){
     return (
         <>
-            <section id="footer" className={`flex flex-col bg-blue-500 items-center justify-center p-10 space-y-10`}>
+            <section id="footer" className={`flex flex-col items-center justify-center p-10 space-y-10`}>
                 <div className={`text-center space-y-2`}>
                     <h2 className={`font-bold text-4xl`}>Contact</h2>
                     <p className={`text-xl`}>You're welcomed to take a look at any of my social profiles below or email me at the address below for any business enquiries</p>

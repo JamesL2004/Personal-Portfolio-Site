@@ -10,7 +10,7 @@ export default function Home(){
     <>
         <div className={`space-y-8`}>
           <Masthead/>
-          <div className={`bg-blue-500 space-y-12`}>
+          <div className={`space-y-12`}>
             <AboutMe/>
             <EducationHistory/>
             <Skills/>
