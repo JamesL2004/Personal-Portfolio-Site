@@ -37,6 +37,22 @@ export default function GauntletCarousel({slides}){
                         <BsFillArrowRightCircleFill/>
                     </button>
                 </div>
+
+                 <div className="absolute bottom-0 py-4 flex justify-center gap-3 w-full">
+                    {slides.map((s, i) => {
+                    return (
+                        <div
+                        onClick={() => {
+                            setCurrent(i);
+                        }}
+                        key={"circle" + i}
+                        className={`rounded-full w-5 h-5 cursor-pointer  ${
+                            i == current ? "bg-white" : "bg-gray-500"
+                        }`}
+                        ></div>
+                    );
+                    })}
+                </div>
             </section>
         </>
     );
