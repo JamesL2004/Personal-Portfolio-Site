@@ -4,7 +4,7 @@ import { useState } from "react";
 import { BsFillArrowRightCircleFill } from "react-icons/bs"
 import { BsFillArrowLeftCircleFill } from "react-icons/bs"
 
-export default function GauntletCarousel({slides}){
+export default function ImageCarousel({slides}){
 
     let [current, setCurrent] = useState(0);
 

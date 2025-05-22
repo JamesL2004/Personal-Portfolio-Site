@@ -1,9 +1,11 @@
-export default function WumpusProjectInfo(){
-    return (
-        <>
-            <section id="wumpusWorldInfo">
+import WumpusInfo from "@/components/wumpusWorld/WumpusInfo";
 
-            </section>
+export default function WumpusProjectInfo(){
+    return(
+        <>
+            <section>
+                <WumpusInfo />
+            </section>           
         </>
     );
 }
