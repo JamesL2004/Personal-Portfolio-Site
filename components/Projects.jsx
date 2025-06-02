@@ -29,8 +29,13 @@ export default function Projects(){
                         <p className={`max-w-sm text-center`}>A Mesa SLM Agent Wumpus sinulation powered by Microsofts Phi-4-mini-instruct model</p>
                     </div>
                     <div className={`bg-blue-300 p-10 rounded-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg`}>
-                        <img src="/images/lakehead-georgian.png" className={"max-w-sm h-auto"}/>
-                        <h3 className={`font-bold text-lg text-center pt-5`}>To Be Added</h3>
+                        <img src="/images/amazon-review.png" className={"max-w-sm h-auto mx-auto"}/>
+                        <h3 className={`font-bold text-lg text-center pt-5`}>Amazon Review Supervised Learning Classifer</h3>
+                        <div>
+                            <Link href="https://github.com/JamesL2004/Wumpus-World-phi4-Simulation" className={`text-center pb-2 hover:underline hover:cursor-pointer hover:text-blue-600 transition-colors`}>Github Repo</Link>
+                            <Link href="/amazonClassifier" className={`text-center pb-2 hover:underline hover:cursor-pointer hover:text-blue-600 transition-colors`}>Info Page</Link>
+                        </div>
+                        <p>This project is a Amazon review classifier that using different supervised learning techniques to correctly guess whether the review is positive or negative.</p>
                     </div>
                 </div>
             </section>
