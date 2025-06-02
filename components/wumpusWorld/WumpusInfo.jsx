@@ -9,7 +9,7 @@ let slides = [
 
 export default function WumpusInfo() {
     return (
-        <section id="wumpus-info">
+        <section id="wumpus-info" className={`p-20`}>
             <div className={`flex items-center justify-center space-x-20 max-w-full mx-auto bg-blue-400 rounded-lg p-20 transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg`}>
                 <div>
                     <ImageCarousel slides={slides}/>
