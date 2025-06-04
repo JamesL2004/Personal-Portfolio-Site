@@ -21,7 +21,7 @@ export default function Skills(){
                             <li>Express</li>
                             <li>Mesa</li>
                             <li>Scikit-Learn</li>
-                            <li>.NET</li>
+                            <li>ASP.NET</li>
                         </ul>
                     </div>
                     <div className={`bg-blue-300 p-10 rounded-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg`}>
@@ -30,7 +30,7 @@ export default function Skills(){
                             <li>Github</li>
                             <li>MongoDB</li>
                             <li>MySQL Workbench</li>
-                            <li>Uniy</li>
+                            <li>Unity</li>
                             <li>Pandas</li>
                         </ul>
                     </div>

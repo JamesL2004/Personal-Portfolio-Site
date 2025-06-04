@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import ImageCarousel from "../ImageCarousel";
 
 export default function GauntletInfo(){
